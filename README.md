@@ -1,4 +1,4 @@
-# surfs_up
+# Surfs_up
 
 ## Overview
 Using python, pandas functions and AQLachemy to retreieve the required data with summary statistics.
