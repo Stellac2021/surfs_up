@@ -1,7 +1,7 @@
 # Surfs_up
 
 ## Overview
-Using python, pandas functions and AQLachemy to retreieve the required data with summary statistics.
+Using python, pandas functions and SQLalchemy to retreieve the required data with summary statistics.
 
 #### Purpose
 The purpose of this analysis is to determine if the surf and ice cream shop business is sustainable year-round with observation of temperature data for the months of June and December from 2010 to 2017 in Oahu.
