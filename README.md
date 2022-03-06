@@ -30,14 +30,14 @@ Below are the queries to add the data.
 
 ```
 june_temp= session.query(Measurement.date, Measurement.tobs,Measurement.prcp ).filter(extract('month', Measurement.date) == 6).all()
-new_june_df = pd.DataFrame(june_temp, columns = ["Date", "June Temp", "June Precipitation"])
+new_june_df = pd.DataFrame(june_temp, columns = ["Date", "June Temp", "June Rainfull"])
 new_june_df.describe()
 ```
 **Adding Dec precipitaion data**
 
 ```
 dec_temp= session.query(Measurement.date, Measurement.tobs,Measurement.prcp ).filter(extract('month', Measurement.date) == 12).all()
-new_dec_df = pd.DataFrame(dec_temp, columns = ["Date", "Dec Temp", "Dec Precipitation"])
+new_dec_df = pd.DataFrame(dec_temp, columns = ["Date", "Dec Temp", "Dec Rainfull"])
 new_dec_df.describe()
 ```
 
