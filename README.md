@@ -11,7 +11,7 @@ Below are the three key takeways in weather between June (Summer) and December(W
 
 - Max temperature are similar , with 85°F in June and  83°F in December
 - Min temperature has the greatest variance of 8°F, where 64°F in June and 56°F in December
-- Average temperature in June is 3°F higher than in December** 
+- Average temperature in June is 3°F higher than in December
 
  ![](Resources/summary_temp.png)
 
